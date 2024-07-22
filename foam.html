@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Call of Duty Buy Form</title>
+</head>
+<body>
+  <form action="process.php" method="post">
+    <label for="item">Select Item:</label>
+    <select name="item" id="item">
+      <option value="item1">Item 1 - $19.99</option>
+      <option value="item2">Item 2 - $24.99</option>
+      <option value="item3">Item 3 - $14.99</option>
+    </select>
+    <br>
+    <label for="name">Your Name:</label>
+    <input type="text" name="name" id="name" required>
+    <br>
+    <label for="email">Your Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <button type="submit">Buy Now</button>
+  </form>
+</body>
+</html>

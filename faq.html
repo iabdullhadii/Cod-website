@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Call of Duty FAQ</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .faq-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .faq-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .faq-question {
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+  }
+
+  .faq-answer {
+    display: none;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .faq-answer p {
+    margin: 0;
+    color: white;
+  }
+</style>
+<script>
+  function toggleAnswer(index) {
+    const answer = document.getElementById(`answer-${index}`);
+    answer.style.display = answer.style.display === "block" ? "none" : "block";
+  }
+</script>
+</head>
+<body>
+  <header>
+    <h1>Call of Duty FAQ</h1>
+  </header>
+  <div class="faq-container">
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleAnswer(1)">What are the system requirements?</div>
+      <div class="faq-answer" id="answer-1">
+        <p>The system requirements for Call of Duty are...</p><br>
+        <p>OS: Windows 10 64 Bit (latest update)</p><br>
+           <P> CPU: Intel Core i3-6100 / Core i5-2500K or AMD Ryzen 3 1200.</P><br>
+           <p> RAM: 8 GB.
+            Hi-Rez Assets Cache: Up to 32 GB.</p><br>
+           <p> Video Card: NVIDIA GeForce GTX 960 or AMD Radeon RX 470.
+            Video Memory: 2 GB.
+            </p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleAnswer(2)">How can I change my in-game settings?</div>
+      <div class="faq-answer" id="answer-2">
+        <p>To change your in-game settings, follow these steps...</p> br
+        <p>Aspect Ratio: Automatic (16:9)</p><br>
+            <p> V-Sync Gameplay: Off – V-Sync on can cause increased latency.</p><br>
+            <p>V-Sync Menu: Off.</p><br>
+            <p>Custom Frame Rate Limit: Custom. Gameplay Custom Frame Rate Limit: 300. Menu Custom Frame Rate Limit: 90. Out of focus Custom Frame Rate Limit: 30.</p><br>
+            <p>Display Gamma: 2.2 (sRGB)
+            Brightness: Preference.</p> <br>
+            <p>Focus Mode: Off.</p>
+      
+    
+    </div>
+
+    </div>
+    <!-- Add more FAQ items here -->
+  </div>
+</body>
+</html>

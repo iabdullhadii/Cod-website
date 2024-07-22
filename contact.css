@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    background-size: cover;
+    color: white;
+}
+:root {
+    --background: url(Header\ slider.png.1.jpg)no-repeat center/cover;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 65%;
+    height: 20%;
+    /* border: 1px solid #000; */
+    margin: auto;
+    transition: .3s linear;
+    margin-top: 50px;
+    color: white;
+}
+
+header nav {
+    width: 100%;
+    height: 7%;
+    margin: 5px auto;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .right_bx {
+    display: flex;
+    align-items: center;
+}
+
+header nav .right_bx ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav .right_bx ul li {
+    padding: 3px 15px;
+}
+
+
+header nav .right_bx ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    transition: .3s linear;
+    font-size: 18px;
+}
+
+header nav .right_bx ul li a:hover {
+    color: #000;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 80%;
+  margin-left: 250px;
+}
+h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 34px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
